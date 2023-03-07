@@ -40,6 +40,7 @@ font-size: 3rem;
 font-weight:1.5;
 }
 
+
 /* Buttons */
 
 .download-button{
@@ -53,3 +54,36 @@ font-weight:1.5;
     width: 60%;
     transform: rotate(25deg);
   }
+
+
+/* Features */
+
+#features{
+
+    margin: 7% 15%;
+}
+
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.div-feat-icons{
+    text-align: center;
+    padding: 5%;
+}
+
+.feat-icon{
+   
+    color:#cf8172;
+  
+
+}
+
+.feat-icon:hover{
+    color:#ff4c68;
+}
