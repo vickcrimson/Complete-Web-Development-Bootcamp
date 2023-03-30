@@ -66,24 +66,70 @@ font-weight:1.5;
 
 h3{
     font-family: 'Montserrat-bold', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
 }
 
 p{
     color: #8f8f8f;
 }
 
+.icon{
+    margin-bottom: 1rem;
+}
+
 .div-feat-icons{
+    padding: 5% 5%;
     text-align: center;
-    padding: 5%;
 }
 
 .feat-icon{
-   
-    color:#cf8172;
+       color:#ef8172;
   
 
 }
 
 .feat-icon:hover{
     color:#ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+.testmonial-carrs{
+    padding: 7% 15%;
+}
+
+/*Press*/
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 40px 20px;
 }
