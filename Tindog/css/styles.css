@@ -7,7 +7,6 @@ body{
 #title{
     background-color: #ff4c68;
     color: #fff;
-    
 }
 
 /* Navbar */
@@ -21,23 +20,34 @@ body{
     font-family: 'Ubuntu';
     font-size:2.5rem;
     font-weight: bold;
+    text-shadow: 1px 0.5px 1px black;
 }
 
 .nav-item{
-    padding: 0 18px;  
+    padding: 0 20px;  
 }
+
 .nav-link{
     font-family: 'Montserrat-light' ;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    bottom: 50%;
+   
+   }
+
+.container-price{
+    margin-left: 40%;
 }
+
+
 .container-fluid{
-    padding: 3% 15%;
+    padding: 5% 15% 0 ;
 }
 
 h1{
 font-family: 'Montserrat-black', sans-serif;
-font-size: 3rem;
-font-weight:1.5;
+font-size: 3.5rem;
+font-weight: bold;
+text-shadow: 1px 0.5px 1px black;
 }
 
 
@@ -50,17 +60,28 @@ font-weight:1.5;
 
 /* Image */
 
+.fit-in{
+       height: 500px;
+}
+
 #rotate {
-    width: 60%;
+    max-width: 25%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    
+    
+    
   }
 
 
 /* Features */
 
 #features{
+    background-color: #fff;
+    padding: 10% 15% 10%;
+    position: relative;
 
-    margin: 7% 15%;
 }
 
 
@@ -132,4 +153,15 @@ h2{
 .press-logo{
     width: 15%;
     margin: 20px 40px 20px;
+}
+
+/*Pricing*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.card-collum{
+    padding: 2% 3%;
 }
