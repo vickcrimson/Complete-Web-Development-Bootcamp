@@ -40,7 +40,7 @@ body{
 
 
 .container-fluid{
-    padding: 5% 15% 0 ;
+    padding: 5% 15% 8% ;
 }
 
 h1{
@@ -61,11 +61,11 @@ text-shadow: 1px 0.5px 1px black;
 /* Image */
 
 .fit-in{
-       height: 500px;
+    position: relative;
 }
 
 #rotate {
-    max-width: 25%;
+    width: 60%;
     transform: rotate(25deg);
     position: absolute;
     right: 25%;
@@ -164,4 +164,39 @@ h2{
 
 .card-collum{
     padding: 2% 3%;
+}
+
+
+/*View-port / Media Query*/
+
+@media (max-width: 990px) {
+
+#title{
+    text-align: center;
+}
+
+.fit-in{
+    position: static;
+}
+#rotate{
+    position: static;
+    transform: rotate(0);
+}
+
+}
+
+/* CTA */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 15% 10%;
+    text-align: center;
+}
+
+.h3-cta{
+font-family: 'Montserrat-black', sans-serif;
+font-size: 2.5rem;
+font-weight: bolder;
+color: #fff;
+text-shadow: 1px 0.5px 1px black;
 }
