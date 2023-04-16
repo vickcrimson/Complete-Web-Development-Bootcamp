@@ -1,0 +1,46 @@
+html{
+    font-size: 14px;
+}
+
+.container-fluid{
+    text-align: center;
+   
+}
+
+.row{
+    margin: 10% 35% ;
+    padding-bottom: 0.5em;
+    background-color: rgb(21, 20, 20);
+    border-radius: 5px;
+}
+
+.title{
+    padding: 1rem  ;
+    color: azure;
+}
+
+.input-area{
+    font-size:  0.5em; 
+    font-weight: 600;
+}
+
+.label-input{
+    font-size:2rem;
+    color: azure;
+    padding: 0.5rem;
+}
+
+.this-label{
+    border-radius: 2px;
+}
+
+.btn{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.result{
+    width: 100%;
+    margin-top: 1.5em;
+}
+
