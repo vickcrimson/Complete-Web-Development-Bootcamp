@@ -1,0 +1,34 @@
+body{
+    background-color:  #393E46;
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color:#F2E8D5 ;
+    text-shadow: -5px 1px #0D0D0D;
+}
+
+.container-fluid{
+    margin-top: 3rem ;
+    padding: 5% 15%;
+}
+
+.main-title{
+    font-size: 5rem;
+}
+
+.roll{
+    background-color: #d00a1a ;
+    color: #F2E8D5;
+    
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.game_area{
+    padding: 5%;
+}
