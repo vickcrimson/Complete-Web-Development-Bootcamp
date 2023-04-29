@@ -16,30 +16,32 @@
     </head>
     <body>
         <div class="container-fluid">
-            <h1 class="main-title">Dice Game</h1>
+            <h1 class="main-title" id="winner">Dice Game</h1>
             <h4>2 Players, 1 Winner.</h4>
 
         <div class="game_area">
             <div class="dice">
                <p> Player 1 </p>
+               <img class="image" id="img1" src="images\dice6.png" alt="Dice 6">
             </div>
             
             <div class="dice">
                 <p> Player 2 </p>
+                <img class="image" id="img2" src="images\dice6.png" alt="Dice 6">
 
             </div>
 
         </div>
             <p>Click the button and try your luck!</p>
-            <button type="button" class="btn btn-large roll">Roll Dices</button>
+            <button onclick="rollDice()" type="button" class="btn btn-large roll" id="rollD">Roll Dices</button>
         </div>
         </div>
 
         <div class="foot">
             <footer>
-                Created by 
+                Created by <a href="https://github.com/vickcrimson" target="_blank">Victor Crimson</a>
             </footer>
         </div>
-        <script></script>
+        <script src="index.js"></script>
     </body>    
 </html>

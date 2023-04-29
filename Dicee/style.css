@@ -10,8 +10,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .container-fluid{
-    margin-top: 3rem ;
-    padding: 5% 15%;
+    margin-top: 1rem ;
+    padding: 1% 15%;
 }
 
 .main-title{
@@ -31,4 +31,26 @@ h1,h2,h3,h4,h5,h6,p{
 
 .game_area{
     padding: 5%;
+}
+
+.image{
+    width: 50%;
+}
+
+footer{
+    color:#A88F77 ;
+    font-size: 0.7em;
+}
+
+a:link{
+    color:#d00a1a;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #A88F77;
+}
+
+a:hover{
+    color:#A81411 ;
 }
