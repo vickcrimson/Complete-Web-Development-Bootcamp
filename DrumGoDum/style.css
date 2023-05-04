@@ -1,0 +1,68 @@
+body{
+    background-color:#2B2F52 ;
+    text-align: center;
+}
+
+h1{
+    font-family: KDA;
+    color: #BDF2F2;
+}
+
+h2,h3,h4,h5,h6,p {
+    font-family: 'Sigmar', cursive;;
+    color: #BDF2F2;
+}
+
+.title{
+    font-size: 3rem;
+    padding-top: 2em ;
+}
+
+.drumKit{
+    padding: 5% 7%;
+}
+
+button{
+    font-family: KDA;
+    line-height: 2;
+    border-radius: 10px;
+}
+
+
+
+.icons{
+    width: 10%;
+}
+
+.A, .S, .D, .F, .G{
+    background-image: url("assets/images/kda.png");
+}
+
+
+
+footer{
+    color:#ACDEF2 ;
+}
+
+
+
+
+a:link{
+    color: #ACDEF2;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#5D6DB8;
+}
+
+a:hover{
+    color:#E2F5EF ;
+}
+
+
+/*Fonte Local*/
+@font-face {
+    font-family: KDA;
+    src: url(assets/sass/KDA.ttf);
+ }
